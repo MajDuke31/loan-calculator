@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LoanCalculator</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="loanAmount">Amount:</string>
+    <string name="zeroDecimal">0.00</string>
+    <string name="interestRate">Interest Rate:</string>
+    <string name="loanLength">Loan Length (years):</string>
+    <string name="fiveYear">5</string>
+    <string name="tenYear">10</string>
+    <string name="fifteenYear">15</string>
+    <string name="monthlyPremium">Monthly Premium:</string>
+    <string name="twentyYear">20</string>
+    <string name="twentyFiveYear">25</string>
+    <string name="thirtyYear">30</string>
+</resources>

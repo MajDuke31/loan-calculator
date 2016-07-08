@@ -1,0 +1,237 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoanCalculatorActivity"
+    android:shrinkColumns="1,2,3"
+    android:stretchColumns="1,2,3"
+    android:id="@+id/tableLayout"
+    android:padding="5dp">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableRow0">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loanAmount"
+            android:id="@+id/amountTextView"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:paddingRight="5dp" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/amountEditText"
+            android:text="@string/zeroDecimal"
+            android:layout_span="3" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableRow1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interestRate"
+            android:id="@+id/interestRateTextView"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:paddingRight="5dp" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/interestRateEditText"
+            android:text="@string/zeroDecimal"
+            android:layout_span="3" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableRow2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loanLength"
+            android:id="@+id/loanLengthTextView"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:paddingRight="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fiveYear"
+            android:id="@+id/fiveYearTextView"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_column="1"
+            android:gravity="center"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tenYear"
+            android:id="@+id/tenYearTextView"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fifteenYear"
+            android:id="@+id/fifteenYearTextView"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="1" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableRow3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/monthlyPremium"
+            android:id="@+id/monthlyPremiumTextView"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:paddingRight="5dp" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/fiveYearPremiumEditText"
+            android:text="@string/zeroDecimal"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:focusable="false"
+            android:longClickable="false"
+            android:layout_weight="1" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/tenYearPremiumEditText"
+            android:text="@string/zeroDecimal"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:focusable="false"
+            android:longClickable="false"
+            android:layout_weight="1" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/fifteenYearPremiumEditText"
+            android:text="@string/zeroDecimal"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:focusable="false"
+            android:longClickable="false"
+            android:layout_weight="1" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableRow4" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loanLength"
+            android:id="@+id/loanLengthTextView2"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:paddingRight="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twentyYear"
+            android:id="@+id/twentyYearTextView"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twentyFiveYear"
+            android:id="@+id/twentyFiveYearTextView"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thirtyYear"
+            android:id="@+id/thirtyYearTextView"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="1" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableRow5" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/monthlyPremium"
+            android:id="@+id/monthlyPremiumTextView2"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:paddingRight="5dp" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/twentyYearPremiumEditText"
+            android:text="@string/zeroDecimal"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:focusable="false"
+            android:longClickable="false"
+            android:layout_weight="1" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/twentyFiveYearPremiumEditText"
+            android:text="@string/zeroDecimal"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:focusable="false"
+            android:longClickable="false"
+            android:layout_weight="1" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/thirtyYearPremiumEditText"
+            android:text="@string/zeroDecimal"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:focusable="false"
+            android:longClickable="false"
+            android:layout_weight="1" />
+    </TableRow>
+</TableLayout>
